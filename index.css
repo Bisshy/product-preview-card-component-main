@@ -1,0 +1,30 @@
+/*//Resets*/
+*,
+*::before,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+:root{
+    --Dark-cyan: hsl(158, 36%, 37%);
+    --Cream:hsl(30, 38%, 92%);
+    --Very-dark-blue: hsl(212, 21%, 14%);
+    --Dark-grayish-blue: hsl(228, 12%, 48%);
+    --White:hsl(0, 0%, 100%);
+}
+
+/*//Fonts*/
+
+@font-face {
+    font-family:Montserrat ;
+    src: url(/fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: Fraunces;
+    src: url(/fonts/Fraunces_9pt_Soft-Bold.ttf);
+}
+
+/*//General-Styles*/
